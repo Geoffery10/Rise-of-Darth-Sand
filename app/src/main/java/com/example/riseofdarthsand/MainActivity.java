@@ -2,6 +2,7 @@ package com.example.riseofdarthsand;
 
 import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
+import android.support.annotation.RawRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button stopbtn = findViewById(R.id.stopbtn);
 
+        //Buttons are defined here
         Button btn1 = findViewById(R.id.button1);
         Button btn2 = findViewById(R.id.button2);
         Button btn3 = findViewById(R.id.button3);
@@ -47,16 +49,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Button clicks are here
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.do_it_do_it_do_it_do_it_do_it);
-                soundPlayer.start();
-                soundPlayer.setLooping(true);
-                Log.i("My App", "START");
+                startPlaying(R.raw.do_it_do_it_do_it_do_it_do_it, true);
             }
         });
 
@@ -64,12 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.r2_activate_elevator_music);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.r2_activate_elevator_music, false);
             }
         });
 
@@ -77,12 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.time_to_abandon_smoking);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.time_to_abandon_smoking, false);
             }
         });
 
@@ -90,12 +78,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sith_lords_are_sissys);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.sith_lords_are_sissys, false);
             }
         });
 
@@ -103,12 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.ls_noises_1);
-                soundPlayer.start();
-                soundPlayer.setLooping(true);
-                Log.i("My App", "START");
+                startPlaying(R.raw.ls_noises_1, false);
             }
         });
 
@@ -116,12 +94,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.do_it);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.do_it, false);
             }
         });
 
@@ -129,12 +102,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.palpatine_sound_1);
-                soundPlayer.start();
-                soundPlayer.setLooping(true);
-                Log.i("My App", "START");
+                startPlaying(R.raw.palpatine_sound_1, true);
             }
         });
 
@@ -142,12 +110,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.he_stole_your_sand);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.he_stole_your_sand, false);
             }
         });
 
@@ -155,12 +118,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.your_mom);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.your_mom, false);
             }
         });
 
@@ -168,12 +126,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.master_windu);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.master_windu, false);
             }
         });
 
@@ -181,12 +134,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.happy_landings);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.happy_landings, false);
             }
         });
 
@@ -194,12 +142,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.avengers_assemble);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.avengers_assemble, false);
             }
         });
 
@@ -207,12 +150,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.get_drunk);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.get_drunk, false);
             }
         });
 
@@ -220,12 +158,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.hold_on);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.hold_on, false);
             }
         });
 
@@ -233,12 +166,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.and_you_killed_me);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.and_you_killed_me, false);
             }
         });
 
@@ -246,12 +174,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.i_hate_you);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.i_hate_you, false);
             }
         });
 
@@ -259,12 +182,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.ninth_time);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.ninth_time, false);
             }
         });
 
@@ -272,12 +190,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) //onClick interface
             {
-                Log.i("My App", "STOP");
-                stopPlaying();
-                soundPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tenth_time);
-                soundPlayer.start();
-                soundPlayer.setLooping(false);
-                Log.i("My App", "START");
+                startPlaying(R.raw.tenth_time, false);
             }
         });
 
@@ -292,5 +205,15 @@ public class MainActivity extends AppCompatActivity {
             soundPlayer.release();
             soundPlayer=null;
         }
+    }
+
+    private void startPlaying(@RawRes int sound, boolean loopingTrue)
+    {
+        Log.i("My App", "STOP");
+        stopPlaying();
+        soundPlayer = MediaPlayer.create(getApplicationContext(), sound);
+        soundPlayer.start();
+        soundPlayer.setLooping(loopingTrue);
+        Log.i("My App", "START");
     }
 }

@@ -40,6 +40,17 @@ public class MainActivity extends AppCompatActivity {
         Button btn17 = findViewById(R.id.button17);
         Button btn18 = findViewById(R.id.button18);
         Button btn19 = findViewById(R.id.button19);
+        Button btn20 = findViewById(R.id.button20);
+        Button btn21 = findViewById(R.id.button21);
+        Button btn22 = findViewById(R.id.button22);
+        Button btn23 = findViewById(R.id.button23);
+        Button btn24 = findViewById(R.id.button24);
+        Button btn25 = findViewById(R.id.button25);
+        Button btn26 = findViewById(R.id.button26);
+        Button btn27 = findViewById(R.id.button27);
+        Button btn28 = findViewById(R.id.button28);
+        Button btn29 = findViewById(R.id.button29);
+        Button btn30 = findViewById(R.id.button30);
 
         stopbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -192,6 +203,102 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) //onClick interface
             {
                 startPlaying(R.raw.tenth_time, false);
+            }
+        });
+
+        btn19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.im_pregananant, false);
+            }
+        });
+
+        btn20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.another_path_to_the_dark_side, false);
+            }
+        });
+
+        btn21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.path_to_the_dark_side, false);
+            }
+        });
+
+        btn22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.darth_tragedus, false);
+            }
+        });
+
+        btn23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.disappointment, false);
+            }
+        });
+
+        btn24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.huey_huey, false);
+            }
+        });
+
+        btn25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.kicked_in_his_sleep, false);
+            }
+        });
+
+        btn26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.mmm_exe, false);
+            }
+        });
+
+        btn27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.sand, false);
+            }
+        });
+
+        btn28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.yoda_will_take, false);
+            }
+        });
+
+        btn29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.your_friend, false);
+            }
+        });
+
+        btn30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) //onClick interface
+            {
+                startPlaying(R.raw.youre_dumb, false);
             }
         });
 

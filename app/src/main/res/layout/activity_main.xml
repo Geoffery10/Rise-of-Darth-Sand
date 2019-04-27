@@ -239,7 +239,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Tenth Time"
                 android:textColor="@color/colorText" />
 
 
@@ -251,7 +251,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="I'm Pregnant"
                 android:textColor="@color/colorText"  />
 
             <Button
@@ -262,7 +262,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Another Path to the Dark Side"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -273,7 +273,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Path to the Dark Side"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -284,7 +284,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Darth Tragedus"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -295,7 +295,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Disappointment"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -306,7 +306,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Huey Huey"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -317,7 +317,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Kicked in his Sleep"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -328,7 +328,7 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="Mmmm"
                 android:textColor="@color/colorText" />
 
             <Button
@@ -339,8 +339,42 @@
                 android:layout_column="1"
                 android:layout_marginBottom="10dp"
                 android:background="@color/colorPrimary"
-                android:text="Blank"
+                android:text="He Could Use The Force to Create Sand"
                 android:textColor="@color/colorText" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="28"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Yoda will take the Avengers to..."
+                android:textColor="@color/colorText" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="29"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Your Friend Palpatine"
+                android:textColor="@color/colorText" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="30"
+                android:layout_column="1"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="You're Dumb"
+                android:textColor="@color/colorText" />
+
 
 
             <!--END OF BUTTONS-->

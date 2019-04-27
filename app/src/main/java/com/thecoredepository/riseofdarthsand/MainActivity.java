@@ -1,4 +1,4 @@
-package com.example.riseofdarthsand;
+package com.thecoredepository.riseofdarthsand;
 
 import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;

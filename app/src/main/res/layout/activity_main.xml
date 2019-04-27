@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/sand_bg"
     tools:actionBarNavMode="tabs"
-    tools:context=".MainActivity"
+    tools:context="com.thecoredepository.riseofdarthsand.MainActivity"
     tools:layout_editor_absoluteY="81dp"
     android:configChanges="orientation"
     android:screenOrientation="portrait">

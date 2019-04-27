@@ -1,4 +1,4 @@
-package com.example.riseofdarthsand;
+package com.thecoredepository.riseofdarthsand;
 
 
 import android.os.Bundle;

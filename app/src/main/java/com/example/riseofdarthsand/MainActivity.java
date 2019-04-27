@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn16 = findViewById(R.id.button16);
         Button btn17 = findViewById(R.id.button17);
         Button btn18 = findViewById(R.id.button18);
+        Button btn19 = findViewById(R.id.button19);
 
         stopbtn.setOnClickListener(new View.OnClickListener() {
             @Override
